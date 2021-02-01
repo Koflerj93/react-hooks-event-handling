@@ -5,7 +5,7 @@ function Login() {
     event.preventDefault();
     console.log("I submit");
   }
-
+// we use onSubmit for forms  
   return (
     <form onSubmit={handleSubmit}>
       <input type="text" name="username" placeholder="Enter username..." />
